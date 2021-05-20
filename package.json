@@ -1,0 +1,35 @@
+{
+  "name": "cowinator-socket-serverless",
+  "version": "1.0.0",
+  "description": "Serverless socket connection for cowinator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakshathru/cowinator-socket-serverless.git"
+  },
+  "author": "Nakshathru Ajay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakshathru/cowinator-socket-serverless/issues"
+  },
+  "homepage": "https://github.com/nakshathru/cowinator-socket-serverless#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "serverless": "^2.42.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^7.0.0",
+    "serverless-webpack": "^5.5.0",
+    "ts-loader": "^9.2.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.910.0"
+  }
+}
